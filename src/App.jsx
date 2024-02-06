@@ -77,7 +77,7 @@ function App() {
 		} else if (day == "Tuesday") {
 			const tuesDay = [
 				{
-					nameOfClass: "Network Administration & System",
+					nameOfClass: "Network Administration & Services",
 					timeOfClass: "08:45am - 09:30am",
 					subjectCode: "66672",
 					classRoom: "2104",
@@ -213,10 +213,10 @@ function App() {
 
 	return (
 		<>
-			<div className="overflow-x-auto   text-white h-screen bg-gradient-to-br from-[#5004FD] to-[#A42DE9] ">
-				<div className="fixed  md:sticky md:bg-gradient-to-br md:from-[#5004FD] md:to-[#8920F0] md:top-0 py-6 top-4 left-1/2 -translate-x-1/2  md:translate-x-0 flex justify-around items-center z-[9999] ">
+			<div className="overflow-x-auto   text-white h-screen bg-gradient-to-br from-[#2b3740] to-[#585858] ">
+				<div className="fixed  md:sticky md:bg-gradient-to-br md:from-[#2b3740] md:to-[#585858] md:top-0 py-6 top-4 left-1/2 -translate-x-1/2  md:translate-x-0 flex justify-around items-center z-[9999] ">
 					<div className="text-xl text-center">
-						<h1>7CMTB1</h1>
+						<h1>7CMTA1</h1>
 						<h1 className="text-gray-300 text-base">
 							{new Date().toDateString()}
 						</h1>
@@ -248,7 +248,7 @@ function App() {
 					<table className=" table table-pin-rows mt-28 md:mt-0  text-center  w-[700px] md:w-full">
 						{/* head */}
 						<thead className="md:sticky md:top-24  text-white">
-							<tr className="bg-gradient-to-br from-[#8553FF] to-[#A42DE9]">
+							<tr className="bg-gradient-to-br from-[#221bff] to-[#8d5dff]">
 								<th>Time</th>
 								<th>Subject Name</th>
 								<th>Room Number </th>
